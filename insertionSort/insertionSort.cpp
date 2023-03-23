@@ -43,3 +43,5 @@ void insertionsort()
 	{
 
 		temp = arr[i];	//2.Simpan nilai arr[i] ke variabel sementara temp
+
+		j = i - 1;	//3.Setting  nilai j sama dengan i-1
