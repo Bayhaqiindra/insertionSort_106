@@ -16,4 +16,9 @@ void input()
 			break;
 
 		}
+		else
+		{
+			cout << "\nArray yang anda masukkan maksimal 20 elemen. \n";		// Menampilkan pesan jika data lebih
+		}
+	}
 
