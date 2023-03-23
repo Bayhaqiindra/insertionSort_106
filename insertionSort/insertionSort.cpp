@@ -54,7 +54,7 @@ void insertionsort()
 
 		arr[j + 1] = temp;		//5. Simpan nilai temp ke dalam arr[j+1]
 
-		
+
 		cout << endl;
 		cout << "\nPass " << i << ": ";		//Output ke layar
 		for (int k = 0; k < n; k++)			//Looping nilai k dimulai dari 0 hingga
@@ -62,4 +62,9 @@ void insertionsort()
 			cout << arr[k] << " ";			//Output ke layar
 		}
 	}
-}
+};
+
+void display()
+{
+	cout << endl;												//Output garis kosong
+	cout << "Total element movement= " << n - 1 << endl;	// cout movement element
